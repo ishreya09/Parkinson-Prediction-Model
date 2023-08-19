@@ -1,0 +1,11 @@
+Jitter:DDP
+MDVP:APQ
+MDVP:Jitter(Abs)
+MDVP:PPQ
+MDVP:RAP
+MDVP:Shimmer(dB)
+NHR
+PPE
+Shimmer:APQ3
+Shimmer:APQ5
+Shimmer:DDA
