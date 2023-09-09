@@ -44,5 +44,8 @@ status - Health status of the subject (one) - Parkinson's, (zero) - healthy
 # Models Used
 1. Logistic Regression
 2. Decision Tree
-3. Support Vector Machine
+3. Pruned Decision Tree
+4. Random Forest
+5. Xgboost Classifier
+6. Support Vector Machine
 
