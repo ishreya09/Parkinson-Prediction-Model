@@ -48,4 +48,58 @@ status - Health status of the subject (one) - Parkinson's, (zero) - healthy
 4. Random Forest
 5. Xgboost Classifier
 6. Support Vector Machine
+7. KNN
+8. ANN
 
+# Data Preprocessing methods used
+
+1. Data Cleaning
+2. Handling Missing Values
+3. Feature Selection (Removing highly correlated data)
+4. Feature Scaling
+5. Feature Dimentionality Reduction (PCA)
+6. SMOTE
+
+# Model Evaluation Metrics
+
+1. Accuracy
+2. Confusion Matrix
+3. Precision
+4. Recall
+5. F1 Score
+
+# Conclusion
+
+For our best performing artificial neural network (ANN) model, we employed a meticulous approach to enhance both 
+feature quality and data balance, leading to superior predictive performance. The key steps involved in craŌing this 
+robust model are detailed below: 
+1.  Feature Selection: 
+We prioritized the quality of input features by conducting feature selection, specifically removing 
+highly correlated data. This process ensures that the model focuses on the most informative aspects 
+of the dataset, contributing to improved generalization. 
+2.  Data Standardization: 
+To facilitate consistent and meaningful comparisons between features, we applied data 
+standardization. This step ensures that all features are on a similar scale, preventing any single 
+feature from dominating the learning process. Standardization contributes to a stable and efficient 
+training process. 
+3.  SMOTE Oversampling: 
+Addressing class imbalance is crucial for training a model that is sensitive to all classes. We leveraged 
+the Synthetic Minority Over-sampling Technique (SMOTE) to balance the class distribution. This 
+approach involves generating synthetic samples of the minority class, creating a more representative 
+dataset and preventing the model from being biased towards the majority class. 
+4.  Model Training Configuration: 
+For training the ANN, we chose Binary Cross Entropy as the loss function. This loss function is 
+suitable for binary classification tasks, aligning with the nature of our problem. 
+We employed the Adam optimizer, a widely used optimization algorithm known for its efficiency and 
+effectiveness in optimizing neural networks. 
+5.  Evaluation Metric: 
+To measure the model's overall performance, we utilized accuracy as the evaluation metric. Accuracy 
+provides a comprehensive view of the model's ability to correctly classify instances, making it a 
+meaningful metric for our binary classification task. 
+
+This meticulous combination of feature selection, data standardization, SMOTE oversampling, and thoughƞul model 
+training parameters resulted in an ANN that excels in both training and generalization. The model demonstrates 
+robustness, effectively addressing challenges such as class imbalance and high feature correlation. Its performance is 
+summarized using accuracy, a metric that aligns with our goal of achieving accurate and balanced predictions. 
+This approach not only enhances the model's predictive power but also ensures its reliability in real-world scenarios 
+where class imbalances and correlated features are common challenges. 
